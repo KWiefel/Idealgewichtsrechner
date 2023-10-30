@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_Optimalgewicht-Rechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <form onsubmit="return false">
+        <h2>Idealgewichtsrechner</h2>
+        <div>
+          <label for="bodyHeight">Körpergröße:</label>
+          <input type="number" placeholder="Gewicht in KG" id="bodyHeight" />
+        </div>
+        <div>
+          <label for="age">Alter:</label>
+          <input type="number" placeholder="Alter in Jahren" id="age" />
+        </div>
+        <div>
+          <label for="anatomy">Körperbau:</label>
+          <input type="radio" name="anatomy" id="broad" value="Breit" />
+          <label for="broad">Breit</label>
+          <input type="radio" name="anatomy" id="narrow" value="Schmal" />
+          <label for="narrow">Schmal</label>
+        </div>
+        <div>
+          <input onclick="check()" type="submit" value="Submit" id="submit" />
+          <p class="output"></p>
+        </div>
+      </form>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+}
+html main {
+  display: flex;
+  justify-content: center;
+}
+html main form {
+  background-color: rgba(173, 216, 230, 0.4);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px whitesmoke;
+  width: fit-content;
+  padding: 2em;
+  margin-top: 10%;
+}
+html main form h2 {
+  padding-bottom: 16px;
+}
+html main form div {
+  padding-top: 16px;
+}
+html main form div input::-webkit-outer-spin-button, html main form div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+html main form div #bodyHeight,
+html main form div #age {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 20px;
+  border: none;
+  margin-top: 8px;
+}
+html main form div #bodyHeight:focus,
+html main form div #age:focus {
+  outline: none;
+}
+html main form div #broad,
+html main form div #narrow {
+  margin-top: 8px;
+}
+html main form div label:nth-of-type(1) {
+  display: block;
+}
+html main form div #submit {
+  width: 100%;
+  border-radius: 20px;
+  padding: 1em;
+  border: none;
+  background-color: #4158d0;
+  color: white;
+  margin-top: 16px;
+}
+html main form div p {
+  margin-top: 24px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
